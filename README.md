@@ -1,2 +1,2 @@
 # Landing Page
-The Odin Project - Landing Page
+https://danielkim2711.github.io/landing-page/
