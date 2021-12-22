@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 :root {
   --dark-background-color: #1f2937;
@@ -24,6 +24,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -44,7 +48,6 @@ body {
 }
 
 .navbar-nav-right a {
-  text-decoration: none;
   color: var(--hero-secondary-text);
 }
 
@@ -86,10 +89,10 @@ body {
   max-width: 400px;
 }
 
-.hero-content > button {
+.hero-content > a {
   color: #fff;
   background-color: var(--button-color);
-  padding: 8px 30px;
+  padding: 8px 36px;
   border: none;
   border-radius: 6px;
   font-weight: bold;
@@ -146,7 +149,7 @@ body {
   color: var(--dark-background-color);
 }
 
-.quote-text > h4 {
+.quote-text > h3 {
   text-align: end;
-  font-size: 18px;
+  font-size: 20px;
 }
