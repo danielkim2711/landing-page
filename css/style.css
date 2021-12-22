@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 :root {
   --dark-background-color: #1f2937;
@@ -69,7 +69,7 @@ body {
   width: 500px;
 }
 
-.hero-content > h2 {
+.hero-content > h1 {
   color: var(--hero-main-text);
   font-weight: 900;
   width: 15ch;
@@ -102,7 +102,7 @@ body {
   padding: 60px;
 }
 
-.showcase > h4 {
+.showcase > h2 {
   font-size: 36px;
   font-weight: 900;
   color: var(--dark-background-color);
