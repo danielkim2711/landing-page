@@ -193,3 +193,16 @@ a {
   padding: 6px 25px;
   color: var(--hero-main-text);
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--dark-background-color);
+  padding: 20px;
+  text-align: center;
+}
+
+footer > p {
+  color: var(--hero-main-text);
+  font-weight: 300;
+}
